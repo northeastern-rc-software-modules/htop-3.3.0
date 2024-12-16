@@ -1,0 +1,16 @@
+#%Module
+module-whatis	 "Loads htop/3.3.0 module.
+
+This module was built on Mon Dec 16 04:09:38 PM EST 2024
+
+htop (https://htop.dev/) is a resource monitor.
+
+The script used to build this module can be found here: https://github.com/northeastern-rc-software-modules/htop-3.3.0
+
+To load the module, type:
+module load htop/3.3.0
+
+"
+
+conflict	 htop
+prepend-path	 PATH /shared/EL9/explorer/htop/3.3.0/bin
