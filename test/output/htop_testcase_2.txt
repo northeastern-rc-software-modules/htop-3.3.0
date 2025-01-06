@@ -1,0 +1,14 @@
+========================================================
+Test Case 2: Monitor a Sample Process Using htop
+Job ID: 4005
+Node: d0003
+Start Time: Mon Jan  6 10:09:04 AM EST 2025
+========================================================
+Launching a sample CPU-intensive process...
+Sample process launched with PID: 1598442
+Running htop in batch mode...
+/var/spool/slurmd/job04005/slurm_script: line 41: kill: (1598443) - No such process
+Sample process and htop terminated successfully.
+Sample process detected successfully by htop.
+End Time: Mon Jan  6 10:09:09 AM EST 2025
+========================================================
